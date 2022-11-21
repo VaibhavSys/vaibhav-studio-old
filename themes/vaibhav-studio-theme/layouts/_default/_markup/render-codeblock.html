@@ -1,0 +1,8 @@
+<div class="code-container">
+    <div class="code-block">
+    {{- with (index .Attributes "path") -}}
+      <div class="code-path">&gt; {{ . }}</div>
+    {{- end -}}
+    {{- highlight .Inner .Type .Options -}}
+    </div>
+  </div>

@@ -1,0 +1,16 @@
+    {{ $ptitle := .Page.Title }}
+    {{ if .Page.Params.seotitle }}
+    {{ $ptitle = .Page.Params.seotitle }}
+    {{ end }}
+    
+    {{- if .IsHome -}}
+    Home | {{ .Site.Title }}
+    {{ else if and (.Paginator) (ne .Paginator.PageNumber 1) }}
+    {{ $ptitle }} | Page {{ .Paginator.PageNumber }}
+    {{- else if .Params.hide_site_title -}}
+    {{ $ptitle }}
+    {{- else if $ptitle -}}
+    {{ $ptitle }} | {{ .Site.Title }}
+    {{- else -}}
+    {{ .Site.Title }}
+    {{- end -}}

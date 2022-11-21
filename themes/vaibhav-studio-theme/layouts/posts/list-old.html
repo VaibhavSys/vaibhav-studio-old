@@ -1,0 +1,200 @@
+{{ define "main" }}
+
+<div class="container">
+  {{/*  <ul class="list-group-flush row mt-3">
+    {{ range where .Site.RegularPages "Section" "posts" }}
+    <li class="list-group-item">
+      <a href="{{ .RelPermalink }}" class="text-decoration-none">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="{{.Params.image.source}}" class="img-fluid rounded-start" alt="{{.Params.image.alt}}">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">{{ .Title }}</h5>
+                <p class="card-text">{{ .Params.summary }}</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </li>
+    {{ end }}  */}}
+    {{/*  <li class="list-group-item">
+      <div class="card mx-auto" style="width: 18rem;">
+        <img src="https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2Zyb2ctMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI5MH0sInRvRm9ybWF0IjoiYXZpZiJ9fQ==" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </li>  */}}
+  {{/*  </ul>  */}}
+  <div class="p-5 text-center text-black">
+    <h1 class="mb-3">All posts</h1>
+    {{/*  <h4 class="mb-3">List of post {{ .Data.Plural }}</h4>  */}}
+  {{/*  </div>
+  <div class="row">
+    <div class="card mb-3">
+      <img src="https://res.cloudinary.com/hjlz68xhm/image/upload/dpr_auto,q_auto,c_fill,f_png,w_900,h_700/f_auto,q_auto/w74czbkcazpluls3m1oj.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3">
+    <img src="https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2Zyb2ctMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI5MH0sInRvRm9ybWF0IjoiYXZpZiJ9fQ==" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>  */}}
+
+<!--Section: Content-->
+<section class="text-center">
+  <h4 class="mb-5"><strong>Latest posts</strong></h4>
+
+  <div class="row">
+    <div class="col-lg-4 col-md-12 mb-4">
+      <div class="card">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" class="img-fluid" />
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Post title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the bulk of the
+            card's content.
+          </p>
+          <a href="#!" class="btn btn-primary">Read</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="https://mdbootstrap.com/img/new/standard/nature/023.jpg" class="img-fluid" />
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Post title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the bulk of the
+            card's content.
+          </p>
+          <a href="#!" class="btn btn-primary">Read</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" class="img-fluid" />
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Post title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the bulk of the
+            card's content.
+          </p>
+          <a href="#!" class="btn btn-primary">Read</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-4 col-md-12 mb-4 d-flex align-items-stretch">
+      <div class="card">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="https://mdbootstrap.com/img/new/standard/nature/002.jpg" class="img-fluid" />
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Post title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the bulk of the
+            card's content.
+          </p>
+          <a href="#!" class="btn btn-primary mt-auto">Read</a>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
+      <div class="card">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="https://mdbootstrap.com/img/new/standard/nature/022.jpg" class="img-fluid" />
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Post title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the bulk of the
+            card's content. And more and more and more and more and even more!
+          </p>
+          <a href="#!" class="btn btn-primary">Read</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
+      <div class="card">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="https://mdbootstrap.com/img/new/standard/nature/035.jpg" class="img-fluid" />
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Post title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+          </p>
+          <a href="#!" class="btn btn-primary">Read</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Section: Content-->
+
+<!-- Pagination -->
+<nav class="my-4" aria-label="...">
+  <ul class="pagination pagination-circle justify-content-center">
+    <li class="page-item">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item active" aria-current="page">
+      <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+
+</div>
+{{ end }}

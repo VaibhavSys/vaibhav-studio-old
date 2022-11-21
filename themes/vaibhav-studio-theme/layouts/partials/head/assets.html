@@ -1,0 +1,7 @@
+<!-- CSS -->
+{{ $syntax := resources.Get "scss/syntax.css" }}
+{{ $style := resources.Get "scss/style.scss" | toCSS }}
+{{ $css := slice $syntax $style | resources.Concat "css/style.css" | resources.Minify | resources.Fingerprint }}
+{{/*  {{ $style := resources.Get "scss/style.scss" | resources.Concat "scss/syntax.scss" | toCSS | minify | fingerprint }}  */}}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+<script async defer data-website-id="82b5abc4-c0a4-4e6a-b4a6-81fd48f83568" src="https://umami.vaibhav.studio/essenmis.js"></script>

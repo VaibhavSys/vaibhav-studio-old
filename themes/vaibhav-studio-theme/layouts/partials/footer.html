@@ -1,0 +1,5 @@
+<!-- JS -->
+{{ $bootstrapjs := resources.Get "js/bootstrap/bootstrap.min.js" | resources.Fingerprint }}
+{{ $js := resources.Get "js/script.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $js.RelPermalink }}" defer></script>
+<script src="{{ $bootstrapjs.RelPermalink }}" defer></script>

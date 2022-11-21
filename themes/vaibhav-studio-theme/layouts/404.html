@@ -1,0 +1,28 @@
+{{- define "main" -}}
+<div class="container-fluid">
+    <div class="text-center mt-5">
+        <h1>404</h1>
+        <h2>Page not found</h2>
+        
+        {{ $featured := (and (where .Site.RegularPages "Section" "posts") (where .Site.RegularPages "Params.featured" true))}}
+        {{ if $featured}}
+        <p class="fs-3">Looks like you are lost. Try checking out the posts below!</p>
+        {{ range first 3 $featured }}
+        <article class="card text-center mb-4">
+          <div class="card-body">
+            <h5 class="card-title">{{ .Title }}</h5>
+            <p class="card-text">{{ .Summary }}</p>
+            <a href="{{ .RelPermalink }}" class="btn btn-success">Read More</a>
+          </div>
+        </article>
+        {{ end }}
+        {{ else }}
+        <p class="fs-3">Looks like you are lost...</p>
+        <a href="/posts"><button class="btn btn-success">Get me out of here!</button></a>
+        <div class="d-flex justify-content-center mt-5">
+        <iframe width="800" height="400" src="https://youtube.com/embed/dQw4w9WgXcQ?controls=0&autoplay=1&modestbranding=1&autohide=1&mute=1"></iframe>
+    </div>
+        {{ end }}
+        </div>
+</div>
+{{- end }}

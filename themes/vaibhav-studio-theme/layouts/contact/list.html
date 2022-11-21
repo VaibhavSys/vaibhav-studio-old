@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="container">
+<main class="page contact-page mt-5">
+    <div class="row">
+    <div class="col-md-6">
+    <section class="portfolio-block contact">
+        <div class="heading">
+                <h2>Contact me</h2>
+            </div>
+            <form method="POST" action="https://formspree.io/f/mlevvwza">
+                <div class="mb-3"><label class="form-label" for="name">Your Name</label><input class="form-control item" type="text" id="name" name="name" required></div>
+                <div class="mb-3"><label class="form-label" for="subject">Subject</label><input class="form-control item" type="text" id="subject" name="subject" required></div>
+                <div class="mb-3"><label class="form-label" for="email">Email</label><input class="form-control item" type="email" id="email" name="email" required></div>
+                <div class="mb-3"><label class="form-label" for="message">Message</label><textarea class="form-control item" id="message" name="message" required></textarea></div>
+                <div class="mb-3"><button class="btn btn-primary btn-lg d-block w-100" type="submit">Submit Form</button></div>
+            </form>
+    </section>
+    </div>
+</div>
+</main>
+</div>
+{{ end }}

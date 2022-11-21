@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div class="container-fluid taxonomy-container mb-4">
+  <!-- Hero -->
+  <div class="p-5 text-center">
+    <h1 class="mb-3">{{ .Data.Plural | humanize }}</h1>
+    <h4 class="mb-3">List of post {{ .Data.Plural }}</h4>
+  </div>
+  
+  <div class="container d-flex justify-content-center">
+    <ul class="list-group mt-5">
+      {{ range .Data.Pages }}
+      <a class="text-decoration-none" href="{{ .Page.RelPermalink }}">
+        <li class="list-group-item d-flex justify-content-between align-content-center">
+          <div class="d-flex flex-row">
+            <img src="https://img.icons8.com/color/100/000000/folder-invoices.png" width="40" />
+            <div class="ml-2">
+              <h6 class="mb-0">{{.Page.Title | humanize }}</h6>
+              <div class="about">
+                <span clas="posts-count">{{ len .Data.Pages }} Posts</span>
+              </div>
+            </div>
+          </div>
+        </li>
+      </a>
+      {{ end }}
+    </ul>
+  </div>
+</div>
+{{ end }}

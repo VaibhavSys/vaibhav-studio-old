@@ -1,0 +1,48 @@
+<meta charset="utf-8">
+{{ if .IsHome }}
+<meta name="description" content="{{ .Site.Params.Description }}" />
+<meta name="og:description" content="{{ .Site.Params.Description }}" />
+{{ else if .Params.Description }}
+<meta name="description" content="{{ .Params.Description }}" />
+<meta name="og:description" content="{{ .Params.Description }}" />
+{{ else }}
+<meta name="description" content="{{ .Summary }}" />
+<meta name="og:description" content="{{ .Summary }}" />
+{{ end }}
+<meta name="dc.relation" content="{{ .Site.BaseURL }}" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ .Page.Permalink }}" />
+<meta name="og:title" content="{{ .Page.Title }}" />
+<meta name="twitter:title" content="{{ .Page.Title }}" />
+{{- if .Params.featured_image -}}
+    <meta name="og:image" content="{{ .Params.featured_image }}" />
+    <meta name="twitter:image" content="{{ .Params.featured_image }}" />
+  {{- else -}}
+    <meta name="og:image" content={{ absURL "/favicon-32x32.png" }} />
+    <meta name="twitter:image" content={{ absURL "/favicon-32x32.png" }} />
+  {{- end -}}
+
+{{ if .Params.noindex }}
+<meta name="robots" content="noindex">
+<meta name="googlebot" content="noindex">
+{{ else }}
+<meta name="robots" content="index,follow" /> 
+<meta name="googlebot" content="index,follow" />
+{{ end }}
+
+{{- if isset .Params "canonical" -}}
+<link rel="canonical" href="{{ .Params.canonical }}" />
+{{- else if .Paginator }}
+<link rel="canonical" href="{{ .Paginator.URL | absURL }}" />
+{{ else }}
+<link rel="canonical" href="{{ .Permalink }}" />
+{{- end }}
+{{- if .Paginator -}}
+{{- if .Paginator.HasPrev -}}
+<link rel="prev" href="{{ .Paginator.Prev.URL | absURL }}" />
+{{- end -}}
+{{- if .Paginator.HasNext -}}
+<link rel="next" href="{{ .Paginator.Next.URL | absURL }}" />
+{{- end -}}
+{{- end }}

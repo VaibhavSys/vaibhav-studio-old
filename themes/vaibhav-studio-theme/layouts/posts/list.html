@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="container-fluid post-list-container">
+  <div class="text-center p-5">
+    <h1 class="mb-3>">List of Posts</h1>
+  </div>
+  
+  <!-- Main Content-->
+  <div class="container px-4 px-lg-5 post-list-container">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+        {{/*  setup pagination  */}}
+        {{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") }}
+        {{ range $paginator.Pages }}
+        <!-- Post preview-->
+        <article class="post-preview">
+          <a href="{{.RelPermalink}}">
+            <h2 class="post-title">{{.Title}}</h2>
+            <h3 class="post-subtitle">{{.Summary}}</h3>
+          </a>
+          {{ range .Params.tags }}
+          <a href="/tags/{{. | urlize}}" class="post-tag">
+            <span class="badge bg-success rounded-pill">{{.}}</span>
+          </a>  
+          {{ end }}
+          <p class="post-meta">
+            Posted on {{.Date.Format "January 2, 2006"}}
+          </article>
+          <!-- Divider-->
+          <hr class="my-4" />
+          {{ end }}
+          
+          <!-- Pager-->
+          <div class="d-flex justify-content-center">
+            {{ template "_internal/pagination.html" . }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ end }}

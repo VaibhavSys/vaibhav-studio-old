@@ -1,0 +1,11 @@
+baseURL: 'https://www.vaibhav.studio/'
+languageCode: en-us
+title: Vaibhav's Studio
+theme: vaibhav-studio-theme
+enableRobotsTXT: true
+markup:
+  highlight:
+    style: monokai
+
+params:
+  description: A useful place

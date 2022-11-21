@@ -1,0 +1,31 @@
+{{ define "main" }}
+<main>
+  <div class="container-fluid">
+    <div class="justify-content-center mt-5">
+      <div class="d-flex justify-content-center align-items-center ms-auto me-auto rounded-circle avatar">
+        {{ $avatar := resources.Get "img/avatar.png" }}
+        <img class="rounded-circle d-block mx-auto mx-md-0" src="{{ $avatar.RelPermalink }}">
+      </div>
+      <div class="breif-me mt-4 text-center fs-2">
+        {{ if .Params.about }}
+        {{ .Params.about | markdownify }}
+        {{ end }}
+      </div>
+      <div class="text-center">
+        {{ $featured := (and (where .Site.RegularPages "Section" "posts") (where .Site.RegularPages "Params.featured" true))}}
+        {{ if $featured}}
+        <h3>Featured Posts</h3>
+        {{ range first 3 $featured }}
+        <article class="card text-center mb-4">
+          <div class="card-body">
+            <h5 class="card-title">{{ .Title }}</h5>
+            <p class="card-text">{{ .Summary }}</p>
+            <a href="{{ .RelPermalink }}" class="btn btn-success">Read More</a>
+          </div>
+        </article>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </main>
+  {{ end }}

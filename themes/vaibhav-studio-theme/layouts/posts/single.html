@@ -1,0 +1,70 @@
+{{ define "main" }}
+<main>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-8">
+        <!-- Post content-->
+        <article>
+          <!-- Post header-->
+          <div class="mb-4">
+            <!-- Post title-->
+            <h1 class="fw-bolder mb-1">{{ .Title }}</h1>
+            <!-- Post meta content-->
+            <div class="text-muted fst-italic mb-2">Posted on {{ .Params.date.Format "02 Jan 2006" }} by Vaibhav Dhiman</div>
+            <!-- Post categories-->
+            {{ range .Params.tags }}
+            <a class="badge bg-success rounded-pill text-decoration-none link-light" href="/tags/{{ . | urlize }}">{{ . | humanize }}</a>
+            {{ end }}
+          </div>
+          <!-- Preview image figure-->
+          <figure class="mb-4"><img class="img-fluid rounded" src="{{.Params.image.src}}" alt="{{.Params.image.alt}}" /></figure>
+          <!-- Post content-->
+          <section class="mb-5 article-content">
+            <div class="fs-5 mb-4">{{ .Content | safeHTML }}</div>
+          </section>
+        </article>
+      </div>
+      <!-- Side widgets-->
+      <div class="col-lg-4">
+        <!-- Categories widget-->
+        {{ if .Params.categories }}
+        <div class="card mb-4 categories-widget">
+          <div class="card-header">Categories</div>
+          <div class="card-body">
+            <div class="row">
+              {{ range .Params.categories }}
+              <div class="col-sm-6">
+                <ul class="list-unstyled mb-0">
+                  <li><a class="badge bg-success rounded-pill text-decoration-none link-light" href="/categories/{{ . | urlize }}">{{ . | humanize }}</a></li>
+                </ul>
+              </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+        {{ end }}
+        {{ if .Params.related }}
+        <div class="related-posts">
+          {{ $related := .Site.RegularPages.Related . }}
+          {{ if $related }}
+          <h3>Related Posts</h3>
+          {{ range first 3 $related }}
+          <a href="{{.RelPermalink}}" class="text-decoration-none">
+            <article class="card mb-4 related-widget text-center" >
+              <div class="card-body">
+                <h5 class="card-title">{{.Title}}</h5>
+                <p class="card-text text-muted mb-2">{{.Summary}}</p>
+              </div>
+            </article>
+          </a>
+          {{ end }}
+          {{ end }}
+          {{ end }}
+        </div> 
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+
+{{ end }}
