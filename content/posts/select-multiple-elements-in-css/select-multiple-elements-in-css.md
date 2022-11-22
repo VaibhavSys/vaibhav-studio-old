@@ -7,7 +7,7 @@ draft = true
 featured = false
 featured_image = ""
 seotitle = ""
-tags = ["css"]
+tags = ["CSS"]
 title = "Select multiple elements in CSS"
 
 +++
