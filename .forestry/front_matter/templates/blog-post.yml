@@ -61,4 +61,4 @@ fields:
   type: boolean
   label: Featured
 pages:
-- content/posts/select-multiple-elements-in-css/select-multiple-elements-in-css.md
+- content/posts/select-multiple-elements-in-css/index.md
