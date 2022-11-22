@@ -3,10 +3,11 @@
 :root {
   --bs-body-color: #E8E8E8;
   --bs-body-bg: #101010;
+  --secondary: #141414
 }
 
 .card {
-  --bs-card-bg: #141414;
+  --bs-card-bg: var(--secondary);
 }
 
 .nav-link[aria-current=page] {
@@ -25,12 +26,12 @@
   }
 
 nav {
-  background: #0c0c0c;
+  background: var(--secondary);
 }
 
 .categories-widget, .related-widget
 {
-    background: #0c0c0c;
+    background: var(--secondary);
     color: #D6D5A8;
 }
 
