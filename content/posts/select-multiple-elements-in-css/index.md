@@ -8,7 +8,6 @@ featured_image = ""
 seotitle = ""
 tags = ["CSS"]
 title = "Select multiple elements in CSS"
-
 +++
 You can select multiple different elements in CSS easily by separating the selectors using commas.
 

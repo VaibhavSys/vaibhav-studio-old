@@ -14,8 +14,12 @@
         <!-- Post preview-->
         <article class="post-preview">
           <a href="{{.RelPermalink}}">
-            <h2 class="post-title">{{.Title}}</h2>
-            <h3 class="post-subtitle">{{.Summary}}</h3>
+            <h2 class="post-title">{{ .Title }}</h2>
+            {{ if .Params.Description }}
+            <h3 class="post-subtitle">{{ .Params.Description }}</h3>
+            {{ else }}
+            <h3 class="post-subtitle">{{ .Summary }}</h3>
+            {{ end }}
           </a>
           {{ range .Params.tags }}
           <a href="/tags/{{. | urlize}}" class="post-tag">
