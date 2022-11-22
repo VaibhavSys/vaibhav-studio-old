@@ -13,10 +13,11 @@ title = "Select multiple elements in CSS"
 +++
 You can select multiple different elements in CSS easily by separating the selectors using commas.
 
-Example:
+# For example
 
 Lets say that you want to give the class `exa` the same styles as the class `pex` , you can select them one by one and give them the same rules however,  that would be harder to maintain and increase the size of the stylesheet.
 
+    html
     <div class="exa">
     	<p>Lorem Ipsum</p>
      </div>
