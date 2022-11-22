@@ -3,7 +3,6 @@ canonical = ""
 categories = []
 date = 2022-11-22T15:22:38Z
 description = "Selecting multiple elements in CSS is used to apply the same styles to multiple different elements, classes and id selectors."
-draft = true
 featured = false
 featured_image = ""
 seotitle = ""
