@@ -16,8 +16,7 @@ You can select multiple different elements in CSS easily by separating the selec
 # For example
 
 Lets say that you want to give the class `exa` the same styles as the class `pex` , you can select them one by one and give them the same rules however,  that would be harder to maintain and increase the size of the stylesheet.
-
-    html
+```html linenos=1
     <div class="exa">
     	<p>Lorem Ipsum</p>
      </div>
@@ -25,7 +24,7 @@ Lets say that you want to give the class `exa` the same styles as the class `pex
      <div class="pex">
      	<p>Lorem Ipsum</p>
      </div>
-
+```
 You can select both classes `exa` and `pex` together and apply the same rules to them by separating their selectors with a comma like below.
 
     .exa, .pex {
