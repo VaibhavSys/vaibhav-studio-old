@@ -6,6 +6,8 @@ about: |
      Hi, I'm **Vaibhav Dhiman**.
      
      A software developer from India.
+keywords:
+- "vaibhav studio"
+- "vaibhav's studio"
+- "vaibhav dhiman"
 ---
-
-hi
