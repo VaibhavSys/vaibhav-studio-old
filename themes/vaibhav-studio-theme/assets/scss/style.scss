@@ -180,3 +180,7 @@ nav {
 	--bs-pagination-active-bg: var(--bs-success);
 	--bs-pagination-active-border-color: var(--bs-success);
 }
+
+.navbar-toggler {
+  background: var(--bs-success);
+}
