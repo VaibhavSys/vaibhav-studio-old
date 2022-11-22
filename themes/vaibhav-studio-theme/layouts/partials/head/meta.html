@@ -9,6 +9,7 @@
 <meta name="description" content="{{ .Summary }}" />
 <meta name="og:description" content="{{ .Summary }}" />
 {{ end }}
+<meta name="keywords" content="{{ if .Params.Keywords }}{{ delimit .Params.Keywords ", " }}{{ end }}">
 <meta name="dc.relation" content="{{ .Site.BaseURL }}" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="website" />
