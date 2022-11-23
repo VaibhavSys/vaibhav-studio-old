@@ -3,7 +3,6 @@ canonical = ""
 categories = []
 date = 2022-11-23T12:47:59Z
 description = "The  command “du” (Disk Usage) is a standard Unix/Linux command, used to check the information of disk usage of files and directories on a machine."
-draft = true
 featured = false
 featured_image = ""
 keywords = ["directory usage in linux", "check directory usage in linux", "how to find how much space a directory is taking in linux", "check directory space in linux"]
