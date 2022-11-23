@@ -16,7 +16,7 @@ The  command “du” (Disk Usage) is a standard Unix/Linux command, used to che
 
 ## How to find the disk usage of a directory
 
-Using the “-sh” option with the “du” command provides results in “Human Readable Format“. This means that you can see the sizes in Bytes, Kilobytes, Megabytes, Gigabytes, and so on.
+Using the “-h” option with the “du” command provides results in “Human Readable Format“. This means that you can see the sizes in Bytes, Kilobytes, Megabytes, Gigabytes, and so on.
 
 ```shell
 [vaibhav@vaibhav-studio /]$ sudo du -sh /etc
