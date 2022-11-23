@@ -18,11 +18,11 @@ The  command “du” (Disk Usage) is a standard Unix/Linux command, used to che
 
 Using the “-sh” option with the “du” command provides results in “Human Readable Format“. This means that you can see the sizes in Bytes, Kilobytes, Megabytes, Gigabytes, and so on.
 
-    ```shell
+```shell
     # du -sh /etc
     
     15M	/etc
-    ```
+```
 
 #### Lets break that command down
 
