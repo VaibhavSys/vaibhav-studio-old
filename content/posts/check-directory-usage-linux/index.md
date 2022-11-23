@@ -26,6 +26,7 @@ Using the “-sh” option with the “du” command provides results in “Huma
 
 #### Lets break that command down
 
+* `sudo` - The command starts with sudo because most of the files and directories inside the /etc directory are owned by the root user and are not readable by the regular users. 
 * `du` - The command
 * `s` - Display only the total size of the specified directory, do not display file size totals for subdirectories.
 * `h` - Print sizes in a human-readable format (`h`).
