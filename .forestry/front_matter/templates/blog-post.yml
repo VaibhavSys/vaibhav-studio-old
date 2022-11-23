@@ -66,4 +66,5 @@ fields:
   label: Keywords
   description: Keywords for SEO
 pages:
+- content/posts/check-directory-usage-linux/check-directory-usage-in-linux.md
 - content/posts/select-multiple-elements-in-css/index.md
