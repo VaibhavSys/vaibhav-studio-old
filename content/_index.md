@@ -1,13 +1,12 @@
 ---
-title: "Vaibhav's Studio"
-date: 2022-10-31T23:25:04+05:30
-draft: false
-about: |
-     Hi, I'm **Vaibhav Dhiman**.
-     
-     A software developer from India.
+title: Vaibhav Studio
+date: 2022-10-31T23:25:04.000+05:30
+about: Vaibhav Studio. Hi, I'm **Vaibhav Dhiman**.A software developer from India.
 keywords:
-- "vaibhav studio"
-- "vaibhav's studio"
-- "vaibhav dhiman"
+- vaibhav dhiman studio
+- vaibhav dhiman
+- vaibhav studio
+- vaibhav's studio
+- vaibhav dhiman
+
 ---
