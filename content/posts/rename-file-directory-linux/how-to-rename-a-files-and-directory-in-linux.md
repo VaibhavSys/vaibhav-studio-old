@@ -3,7 +3,6 @@ canonical = ""
 categories = ["How To"]
 date = 2022-12-04T14:14:55Z
 description = "Renaming a file or directory in Linux is easy! We can use the mv command to rename files and directories."
-draft = true
 featured = false
 featured_image = ""
 keywords = ["how to rename a directory in linux", "how to rename a file in linux", "how to change a filename in linux", "change a filename in linux", "rename a directory in linux", "rename a file in linux"]
