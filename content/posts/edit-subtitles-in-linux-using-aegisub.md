@@ -38,4 +38,4 @@ sudo apt install aegisub
 
 sudo pacman -S aegisub
 
-\\\
+```
