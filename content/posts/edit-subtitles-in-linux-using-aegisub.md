@@ -24,7 +24,7 @@ Aegisub is a free, cross-platform open source tool for creating and modifying su
 
 ### Debian
 
-```bash
+```
 # apt update
 # apt install aegisub
 ```
