@@ -20,7 +20,10 @@ It is very simple and easy to use.
 
 ## Steps
 
-![](/uploads/2022-12-04-instaplot-initial.png)![](/uploads/2022-12-04-instaplot_search_bar.png)![](/uploads/2022-12-04-instaplot_final.png)
+
+1. ![](/uploads/2022-12-04-instaplot-initial.png)
+1. ![](/uploads/2022-12-04-instaplot_search_bar.png)
+1. ![](/uploads/2022-12-04-instaplot_final.png)
 
 ## About
 
