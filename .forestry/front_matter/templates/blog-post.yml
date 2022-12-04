@@ -67,5 +67,4 @@ fields:
   description: Keywords for SEO
 pages:
 - content/posts/check-directory-usage-linux/index.md
-- content/posts/edit-subtitles-in-linux-using-aegisub.md
 - content/posts/select-multiple-elements-in-css/index.md
