@@ -30,7 +30,6 @@ Aegisub is a free, cross-platform open source tool for creating and modifying su
 ```
 
 ### Arch Linux
-
-```shell
-sudo pacman -S aegisub
+```studioprompt
+# pacman -S aegisub
 ```
