@@ -46,3 +46,9 @@ $ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-re
     
 $ sudo dnf install aegisub -y
 ```
+
+## Meta
+
+Aegisub GitHub Repository: [https://github.com/Aegisub/Aegisub/](https://github.com/Aegisub/Aegisub/ "https://github.com/Aegisub/Aegisub/")
+
+Aegisub Archived Website: [https://web.archive.org/web/20201215063947/http://www.aegisub.org/](https://web.archive.org/web/20201215063947/http://www.aegisub.org/ "https://web.archive.org/web/20201215063947/http://www.aegisub.org/")
