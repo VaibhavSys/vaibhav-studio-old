@@ -3,7 +3,6 @@ canonical = ""
 categories = []
 date = 2022-12-04T09:57:27Z
 description = "Aegisub is a great subtitle editor for Linux, Windows and MacOS published under a open source license."
-draft = true
 featured = false
 featured_image = ""
 keywords = ["aegisub", "subtitle editor for linux", "subtitle editor for windows", "subtitle editor for mac", "good subtitle editor"]
