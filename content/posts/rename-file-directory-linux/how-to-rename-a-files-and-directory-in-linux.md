@@ -14,22 +14,39 @@ title = "How to rename a files and directory in Linux"
 Renaming a file or directory in Linux is easy! We can use the mv command to rename files and directories.
 
 ## Syntax
+
 ```shell
 $ mv <current_path> <new_path>
 ```
+
 ## Examples
+
 ```shell
 ~/sheep_farm » ls
 sheep  sheep_count.txt  sheep_report.txt
 ```
+
 I have a directory named sheep, two files.
 I want to rename `sheep_count.txt` to `sheep_quantity.txt`.
 I would use the command:
+
 ```shell
 $ mv sheep_count.txt sheep_quantity.txt
 ```
+
 Let's see the output
+
 ```shell
 ~/sheep_farm » ls
 sheep  sheep_quantity.txt  sheep_report.txt
+```
+
+I want to rename the directory `sheep` to `sheeps`. So I would do
+```shell
+~/sheep_farm » mv sheep sheeps
+```
+Lets see the result
+```shell
+~/sheep_farm » ls
+sheep_quantity.txt  sheep_report.txt  sheeps
 ```
