@@ -10,7 +10,7 @@
       <div class="post-preview">
         <a href="{{.RelPermalink}}">
           <h2 class="post-title">{{.Title}}</h2>
-          <h3 class="post-subtitle">{{.Summary}}</h3>
+          <h3 class="post-subtitle">{{.Description}}</h3>
         </a>
           {{ range .Params.tags }}
           <a href="/tags/{{. | urlize}}" class="post-tag">
