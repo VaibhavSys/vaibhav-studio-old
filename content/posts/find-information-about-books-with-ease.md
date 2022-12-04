@@ -17,3 +17,16 @@ title = "Find information about books with ease"
 Instaplot is a tool for finding information about books with ease.
 
 It is very simple and easy to use.
+
+## Steps
+
+![](/uploads/2022-12-04-instaplot-initial.png)![](/uploads/2022-12-04-instaplot_search_bar.png)![](/uploads/2022-12-04-instaplot_final.png)
+
+## About
+
+It uses Google Books API to fetch information about books.
+
+Links
+
+* [Instaplot Website](https://instaplot.vaibhav.studio "Instaplot Website")
+* [Instaplot Source](https://github.com/Instaplot "Instaplot Source")
