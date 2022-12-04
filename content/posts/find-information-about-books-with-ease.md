@@ -21,11 +21,11 @@ It is very simple and easy to use.
 ## Steps
 
 
-1. ![](/uploads/2022-12-04-instaplot-initial.png)
+1. Navigate to [Instaplot](https://instaplot.vaibhav.studio "Instaplot Website") ![](/uploads/2022-12-04-instaplot-initial.png)
 
-1. ![](/uploads/2022-12-04-instaplot_search_bar.png)
+1. Enter the name of the book in the search bar ![Enter the name of the book in the search bar](/uploads/2022-12-04-instaplot_search_bar.png)
 
-1. ![](/uploads/2022-12-04-instaplot_final.png)
+1. The information will show up ![The information will show up](/uploads/2022-12-04-instaplot_final.png)
 
 ## About
 
