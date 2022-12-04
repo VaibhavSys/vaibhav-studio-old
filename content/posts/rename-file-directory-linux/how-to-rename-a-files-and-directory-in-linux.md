@@ -18,7 +18,7 @@ Renaming a file or directory in Linux is easy! We can use the mv command to rena
 $ mv <current_path> <new_path>
 ```
 ## Examples
-```
+```shell
 ~/sheep_farm » ls
 sheep  sheep_count.txt  sheep_report.txt
 ```
