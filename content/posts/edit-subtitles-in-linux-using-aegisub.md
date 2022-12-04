@@ -31,14 +31,15 @@ $ sudo apt install aegisub
 
 ### Arch Linux
 
-```bash
+```shell
 $ sudo pacman -S aegisub
 ```
 
 ### Fedora
 
 Aegisub can be used on Fedora Linux, although users will not be able to install it via conventional software sources. Instead, RPM Fusion must be setup.
-
-    $ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-X.noarch.rpm -y
+```shell
+$ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-X.noarch.rpm -y
     
-    # sudo dnf install aegisub -y
+$ sudo dnf install aegisub -y
+```
