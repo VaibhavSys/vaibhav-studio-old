@@ -1,14 +1,15 @@
 +++
 canonical = ""
-categories = []
+categories = ["How To"]
 date = 2022-11-22T15:22:38Z
 description = "Selecting multiple elements in CSS is used to apply the same styles to multiple different elements, classes and id selectors."
 featured = false
 featured_image = ""
+keywords = ["select", "multiple", "elements", "css"]
 seotitle = ""
 tags = ["CSS"]
 title = "Select multiple elements in CSS"
-keywords = ["select", "multiple", "elements", "css"]
+
 +++
 You can select multiple different elements in CSS easily by separating the selectors using commas.
 
