@@ -24,18 +24,18 @@ Aegisub is a free, cross-platform open source tool for creating and modifying su
 
 ### Debian
 
-\`\`\`sh
+```sh
 
 sudo apt update
 
 sudo apt install aegisub
 
-\`\`\`
+```
 
 ### Arch Linux
 
-\`\`\`sh
+```sh
 
 sudo pacman -S aegisub
 
-\`\`\`
+\\\
