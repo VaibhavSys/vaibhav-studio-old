@@ -1,6 +1,6 @@
 baseURL: 'https://www.vaibhav.studio/'
 languageCode: en-us
-title: Vaibhav's Studio
+title: Vaibhav Studio
 theme: vaibhav-studio-theme
 enableRobotsTXT: true
 markup:
