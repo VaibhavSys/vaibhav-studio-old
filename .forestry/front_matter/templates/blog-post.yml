@@ -67,5 +67,6 @@ fields:
   description: Keywords for SEO
 pages:
 - content/posts/check-directory-usage-linux/index.md
+- content/posts/count-the-number-of-files-and-directories-in-linux.md
 - content/posts/move-file-directories-linux/index.md
 - content/posts/select-multiple-elements-in-css/index.md
