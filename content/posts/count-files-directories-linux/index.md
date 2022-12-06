@@ -47,3 +47,15 @@ Quick little bash one liner to list the directories in the current directory hid
 `~/sheep_farm » ls -A1 | wc -l`
 
 Explanation: Tells `ls` to show one file per line and show almost all files (excluding `.` and `..`) and to count the lines.
+
+## Count Files Recursively
+
+`~/sheep_farm » find . -type f | wc -l`
+
+## Count Directories Recursively
+
+`~/sheep_farm » echo "$(expr $(find . -type d | wc -l) - 1)"`
+
+## Count Files and Directories Recursively
+
+`~/sheep_farm » echo "$(expr $(find . -type d | wc -l) - 1 + $(find . -type f | wc -l))"`
