@@ -3,7 +3,6 @@ canonical = ""
 categories = ["How To"]
 date = 2022-12-06T12:18:26Z
 description = "We can count the number of files or directories in linux with the help of utilities like ls, find and wc."
-draft = true
 featured = false
 featured_image = ""
 keywords = ["count the number of files in linux", "count the number of directories in linux", "count the number of files and directories in linux", "count the number of files or directories in linux", "number of files or directories in linux", "count files in linux", "count directories in linux"]
