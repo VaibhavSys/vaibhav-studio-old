@@ -18,11 +18,11 @@ We can count the number of files or directories in linux with the help of utilit
 
 ## Count Files ONLY
 
-`~/sheep_farm » ls -pA | grep -v / | wc -l`
+`~/sheep_farm » ls -pA1 | grep -v / | wc -l`
 
 Explanation:
 
-* `ls -p`: Tells `ls` to add a `/` infront of directories
+* `ls -p1`: Tells `ls` to add a `/` infront of directories. The `-1` tells `ls` to only show one file per line.
 * `grep -v /`: Tells grep to filter out all enteries with a `/` in them
 * `wc -l`: Tells `wc` to count the lines
 
@@ -34,10 +34,10 @@ Like: `~/sheep_farm » /usr/bin/ls -p | grep -v /`
 
 ## Count Directories ONLY
 
-`~/sheep_farm » ls -ld */ | wc -l`
+`~/sheep_farm » ls -1d */ | wc -l`
 
-Explanation: Tells `ls` to show more information about files so that they are on separate lines and to only list directories not their contents of all directories in the current directory.
+Explanation: Tells `ls` to only list one file per line and to only list directories not their contents of all directories in the current directory.
 
 Note: This will only count non-hidden directories, to count hidden directories use: \~/sheep_farm `» ls -ld */ | wc -l)`
 
-Quick little bash one liner to list the directories in the current directory hidden and non hidden excluding `.` and `..: $ echo "$(expr $(ls -ld .*/ | wc -l) + $(ls -ld */ | wc -l) - 2)"`
+Quick little bash one liner to list the directories in the current directory hidden and non hidden excluding `.` and `..: $ echo "$(expr $(ls -1d .*/ | wc -l) + $(ls -1d */ | wc -l) - 2)"`
