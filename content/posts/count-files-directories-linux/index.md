@@ -38,7 +38,7 @@ Like: `~/sheep_farm » /usr/bin/ls -p | grep -v /`
 
 Explanation: Tells `ls` to only list one file per line and to only list directories not their contents of all directories in the current directory.
 
-Note: This will only count non-hidden directories, to count hidden directories use: \~/sheep_farm `» ls -ld .*/ | wc -l`
+Note: This will only count non-hidden directories, to count hidden directories use: `~/sheep_farm » ls -ld .*/ | wc -l`
 
 Quick little bash one liner to list the directories in the current directory hidden and non hidden excluding `.` and `..: $ echo "$(expr $(ls -1d .*/ | wc -l) + $(ls -1d */ | wc -l) - 2)"`
 
