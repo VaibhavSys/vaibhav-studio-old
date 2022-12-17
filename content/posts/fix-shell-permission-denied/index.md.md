@@ -3,7 +3,6 @@ canonical = ""
 categories = []
 date = 2022-12-17T17:27:26Z
 description = "This error usually occurs when the file you are trying to execute does not have the required permissions."
-draft = true
 featured = false
 featured_image = ""
 keywords = ["fix zsh permission denied", "fix bash permission denied", "fix sh permission denied", "fix permission denied", "shell permission denied", "cannot execute file"]
