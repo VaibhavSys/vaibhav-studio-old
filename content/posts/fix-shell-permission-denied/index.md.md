@@ -43,10 +43,10 @@ Let's learn how to fix that.
 
 We can use the `chmod` command to modify the permissions of the file.
 
-### To allow the file owner to execute the file
+#### To allow the file owner to execute the file
 
-Use **_`$ chmod u+x filename`_**
+#### Use **_`$ chmod u+x filename`_**
 
-### To allow everyone to execute the file
+#### To allow everyone to execute the file
 
 Use **_`$ chmod +x filename`_**
