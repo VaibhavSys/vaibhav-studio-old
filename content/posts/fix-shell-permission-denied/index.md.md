@@ -45,8 +45,8 @@ We can use the `chmod` command to modify the permissions of the file.
 
 #### To allow the file owner to execute the file
 
-Use**_`$ chmod u+x filename`_**
+Use `$ chmod u+x filename`
 
 #### To allow everyone to execute the file
 
-Use **_`$ chmod +x filename`_**
+Use `$ chmod +x filename`
