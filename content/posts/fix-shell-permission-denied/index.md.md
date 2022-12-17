@@ -7,9 +7,9 @@ draft = true
 featured = false
 featured_image = ""
 keywords = ["fix zsh permission denied", "fix bash permission denied", "fix sh permission denied", "fix permission denied", "shell permission denied", "cannot execute file"]
-seotitle = ""
+seotitle = "fix bash: permission denied: ./sheep_checkup.jar"
 tags = ["linux"]
-title = "fix bash: permission denied: ./sheep_checkup.jar"
+title = "Fix Bash Permission Denied"
 
 +++
 # bash: permission denied: ./sheep_checkup.jar
