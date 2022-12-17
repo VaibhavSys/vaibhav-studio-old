@@ -49,4 +49,4 @@ Use **_`$ chmod u+x filename`_**
 
 ### To allow everyone to execute the file
 
-Use **_`chmod +x filename`_**
+Use **_`$ chmod +x filename`_**
