@@ -48,4 +48,7 @@ All this sounds good, but there are a few disadvantages to using a soft link. Th
 
 # What to choose?
 
-There is no clear answer here. The best link is the type that fits your particular circumstances. Although these concepts may be difficult to remember, the syntax is quite simple, so it's a plus!
+There is no clear answer here. The best link is the type that fits your particular circumstances. Although these concepts may be difficult to remember, the syntax is quite simple, so it's a plus! So that both remain easily separated in your mind, remember that:
+
+* A hard link always references a filename to data on a storage device.
+* A soft link always references a filename to another filename, which then references data on a storage device.
