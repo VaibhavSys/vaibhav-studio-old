@@ -34,6 +34,8 @@ Each file within the Linux filesystem begins with a single hard link. The link i
 
 When modifications are made to one filename, the other reflects these modifications. The permissions, link count, ownership, timestamps, and file are exactly the same. The data remains under the secondary hard link if the original file is deleted. Data is only deleted from your drive once all links to the data have been deleted. If you find two files with identical properties but are unsure if they are hard-linked, use the `ls -i` command to display the inode number. Hard-linked files have the same inode number.
 
+Note: In `exa`, the `-l` switch will be needed to be used in combination with the `-i` switch to display inode numbers for files.
+
 ## Limits of Hard Links
 
 Although useful, there are some limits to what hard ties can do. To start, they can only be created for regular files (not directories or special files). Moreover, one hard link cannot span multiple file systems. They only function when the new hard link exists on the same file system as the original.
