@@ -12,8 +12,7 @@ tags = []
 title = "What is a symbolic link in Linux?"
 
 +++
-
-# What is a Symbolic Link in Linux?
+# Introduction
 
 In Linux, a symbolic link (also known as a symlink or soft link) is a special type of file that contains a reference to another file or directory. Symlinks are used to store the paths of other files or directories and allow multiple names, links, or paths for accessing them. They are often used to redirect applications and commands to the desired location without having to move or copy the actual files.
 
