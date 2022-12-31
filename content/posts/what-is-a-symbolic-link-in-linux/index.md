@@ -3,7 +3,6 @@ canonical = ""
 categories = []
 date = 2022-12-31T15:47:20Z
 description = "A symbolic link (also known as a symlink or soft link) is a special type of file that points to another file or directory on your file system. Symbolic links behave like shortcuts in Windows - they are often used to redirect applications and commands to the desired location without having to move or copy the actual files."
-draft = true
 featured = false
 featured_image = ""
 keywords = ["what are symbolic links in linux", "linux what is a symbolic link", "what is symbolic link in unix", "symbolic link in linux", "how to create a symbolic link in linux", "what is a symbolic link in linux", "how to create a soft link in linux", "symbolic links in ubuntu"]
