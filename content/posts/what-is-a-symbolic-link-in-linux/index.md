@@ -26,7 +26,7 @@ The syntax to create a symlink to a file is similar, that is:
 
 `$ ln -s [original path/filename] [new link filename]`
 
-The link command is `ln`. In the absence of `-s` switch, a hard link is created.
+The link command is `ln`. In the absence of the `-s` switch, a hard link is created.
 
 # Hard Links
 
