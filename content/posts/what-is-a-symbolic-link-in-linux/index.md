@@ -8,7 +8,7 @@ featured = false
 featured_image = ""
 keywords = ["what are symbolic links in linux", "linux what is a symbolic link", "what is symbolic link in unix", "symbolic link in linux", "how to create a symbolic link in linux", "what is a symbolic link in linux", "how to create a soft link in linux", "symbolic links in ubuntu"]
 seotitle = ""
-tags = []
+tags = ["linux"]
 title = "What is a symbolic link in Linux?"
 
 +++
