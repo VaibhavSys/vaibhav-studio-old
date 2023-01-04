@@ -53,3 +53,37 @@ Use the awk command to list user names only, without any additional user informa
 `$ awk -F':' '{ print $1}' /etc/passwd`
 
 ![](/uploads/2023-01-04-etc-passwd-awk.png)
+
+# List users with `getent` command
+
+The `getent` command looks for and shows the system database entries. Searchable databases are available from `/etc/nsswitch.conf`.
+
+List the entire contents of the `passwd` database by typing:
+
+`$ getent passwd`
+
+![](/uploads/2023-01-04-etc-passwd-getent.png)
+
+You can also use this command  to look up specific users or to lookup a range of users.
+
+To lookup a user by username:
+
+`$ getent passwd [username]`
+
+![](/uploads/2023-01-04-etc-passwd-getent-username.png)
+
+To lookup a user by UID:
+
+`$ getent passwd [UID]`
+
+![](/uploads/2023-01-04-etc-passwd-uid.png)
+
+To lookup users in a range of UUIDs:
+
+`$ getent passwd {[first-UID]..[last-UID]}`
+
+![](/uploads/2023-01-04-etc-passwd-range.png)
+
+# Conclusion
+
+This manual showed you how to list all Linux users, search for users, and find the number of users in Linux.
