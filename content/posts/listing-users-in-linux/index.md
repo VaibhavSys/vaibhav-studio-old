@@ -3,7 +3,6 @@ canonical = ""
 categories = ["How To"]
 date = 2023-01-04T10:18:05Z
 description = "List users in Linux with the simple command line methods shown here. The manual also contains tips for finding and counting users."
-draft = true
 featured = false
 featured_image = ""
 keywords = ["how to list users in linux", "listing users in linux", "count users in linux", "find a users in linux", "searching users in linux"]
