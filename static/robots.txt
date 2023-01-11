@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://www.vaibhav.studio/sitemap.xml
