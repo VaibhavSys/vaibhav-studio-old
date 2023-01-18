@@ -11,7 +11,7 @@ tags = ["books"]
 title = "Find information about books with ease"
 
 +++
-# Introductions
+# Introduction
 
 Looking for an easier way to gain insight into a book? Instaplot simplifies the research process by offering you quick and easy access to detailed book information. Whether you're looking for plot summaries, or what this book is about, Instaplot has the answers you need.
 
