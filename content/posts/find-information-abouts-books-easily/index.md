@@ -13,13 +13,11 @@ title = "Find information about books with ease"
 +++
 # Introduction
 
-Looking for an easier way to gain insight into a book? Instaplot simplifies the research process by offering you quick and easy access to detailed book information. Whether you're looking for plot summaries, or what this book is about, Instaplot has the answers you need.
+Calling all book lovers and literature enthusiasts! Are you tired of scouring the internet for hours, trying to find information about your next must-read? Well, say goodbye to the hassle and hello to effortless book hunting! In this article, we'll show you how to easily find information about any book you desire.
 
-## Find information about books with ease
+Gone are the days of wandering aimlessly through bookstore aisles, trying to find that one book you heard about from a friend. With just a few clicks, you'll have all the information you need at your fingertips. Want to know the plot summary, reviews? Done. 
 
-Instaplot is a tool for finding information about books with ease. 
-
-It is very simple and easy to use.
+So, what are you waiting for? Get ready to revolutionize the way you find books and join the ultimate book hunt. Happy reading! 
 
 ## Steps
 
@@ -29,9 +27,9 @@ It is very simple and easy to use.
 
 ## About
 
-It uses Google Books API to fetch information about books.  
+Instaplot is a web application to find information about books by the click of a button. It uses Google Books API to fetch information about books.  
 [NuxtJS](https://nuxtjs.org/ "NuxtJS") framework along with [Element UI](https://element.eleme.io/) for the UI Framework.  
-Instaplot is an opensource project, check the link below for the source.
+Instaplot is an open-source project, check the link below for the source.
 
 Links
 
