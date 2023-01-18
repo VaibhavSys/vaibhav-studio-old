@@ -1,5 +1,5 @@
 ---
-title: Vaibhav Studio
+title: 'Vaibhav Studio: Learn, Grow, and Explore'
 date: 2022-10-31T23:25:04.000+05:30
 about: Get a unique perspective on programming and personal development at Vaibhav
   Studio. As a hobby developer from India, I share my insights and experiences on
