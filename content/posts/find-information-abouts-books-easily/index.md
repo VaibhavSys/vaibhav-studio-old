@@ -11,9 +11,13 @@ tags = ["books"]
 title = "Find information about books with ease"
 
 +++
-# Find information about books with ease
+# Introductions
 
-Instaplot is a tool for finding information about books with ease.
+Looking for an easier way to gain insight into a book? Instaplot simplifies the research process by offering you quick and easy access to detailed book information. Whether you're looking for plot summaries, or what this book is about, Instaplot has the answers you need.
+
+## Find information about books with ease
+
+Instaplot is a tool for finding information about books with ease. 
 
 It is very simple and easy to use.
 
@@ -27,7 +31,7 @@ It is very simple and easy to use.
 
 It uses Google Books API to fetch information about books.  
 [NuxtJS](https://nuxtjs.org/ "NuxtJS") framework along with [Element UI](https://element.eleme.io/) for the UI Framework.  
-Instaplot is an opensource project, check the link below for the source. 
+Instaplot is an opensource project, check the link below for the source.
 
 Links
 
