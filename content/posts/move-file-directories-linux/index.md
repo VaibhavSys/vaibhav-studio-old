@@ -2,13 +2,13 @@
 canonical = ""
 categories = ["How To"]
 date = 2022-12-04T16:53:36Z
-description = "Moving a file or directory in Linux is easy! We can use the mv command to move files and directories."
+description = "Learn how to move and copy files and directories in Linux using the command line. This comprehensive tutorial covers the mv, cp, and rsync commands, including syntax, options, and examples. Discover the difference between moving and copying, how to rename files and directories, and best practices for avoiding mistakes. Perfect for beginners and advanced Linux users looking to improve their file management skills."
 featured = false
 featured_image = ""
 keywords = []
 seotitle = ""
 tags = ["linux"]
-title = "How to move files and directories in Linux"
+title = "The Copy Cats: A Beginner's Guide to cp and rsync in Linux"
 
 +++
 # Introduction
