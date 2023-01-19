@@ -1,15 +1,14 @@
 +++
 canonical = ""
-categories = []
+categories = ["How To"]
 date = 2023-01-19T19:10:08Z
-description = ""
-draft = true
+description = "Learn how to create a new user on Linux with ease. This guide provides step-by-step instructions on using the useradd and passwd commands, setting a secure password, creating a home directory, and assigning a group. Whether setting up a new employee or a family member, this guide makes the process of adding a new user to your Linux system quick and easy."
 featured = false
 featured_image = ""
-keywords = []
+keywords = ["create new user Linux", "useradd command Linux", "passwd command Linux", "secure password Linux", "home directory Linux", "assign group Linux", "Linux user management", "Linux user creation guide", "Linux user organization", "Linux user productivity"]
 seotitle = ""
-tags = []
-title = ""
+tags = ["linux"]
+title = "Add a New User to your Linux System like a Pro"
 
 +++
 ## Introduction
