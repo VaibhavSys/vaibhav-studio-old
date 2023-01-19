@@ -13,7 +13,7 @@ title = "The Copy Cats: A Beginner's Guide to cp and rsync in Linux"
 +++
 # Introduction
 
-Moving files and directories is a common task in Linux. Whether you're working on a personal project, or managing a server, you'll often need to move files from one place to another. In this tutorial, we'll show you how to move files and directories in Linux using the command line.
+Moving files and directories is a common task in Linux. Whether you're working on a personal project or managing a server, you'll often need to move files from one place to another. In this tutorial, we'll show you how to move files and directories in Linux using the command line.
 
 # The mv Command
 
