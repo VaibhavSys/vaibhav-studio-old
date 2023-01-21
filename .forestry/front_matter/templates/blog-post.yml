@@ -66,7 +66,7 @@ fields:
   label: Keywords
   description: Keywords for SEO
 pages:
-- content/posts/change-directories-linux/the-beginner-s-guide-to-navigating-linux-changing-directories-like-a-pro.md
+- content/posts/change-directories-linux/index.md
 - content/posts/check-directory-usage-linux/index.md
 - content/posts/move-file-directories-linux/index.md
 - content/posts/new-user-linux/index.md
