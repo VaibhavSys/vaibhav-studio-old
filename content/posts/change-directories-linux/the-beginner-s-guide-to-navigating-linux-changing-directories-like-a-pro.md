@@ -3,7 +3,6 @@ canonical = ""
 categories = []
 date = 2023-01-21T12:03:15Z
 description = "Learn how to change directories in Linux with ease with our beginner-friendly guide. From basic commands to advanced techniques, we cover everything you need to know to navigate the Linux file system like a pro."
-draft = true
 featured = false
 featured_image = ""
 keywords = ["linux", "vaibhavstudio", "vaibhav dhiman", "vaibhav studio", "navigation", "changing directories", "linux guide", "linux tutorial", "beginners", "linux commands", "file system", "changing directory", "navigate", "linux file system", "linux navigation", "command line", "linux tutorial for beginners", "linux beginners guide", "linux file management"]
