@@ -12,18 +12,18 @@ tags = []
 title = "\"Discord Friendships Simplified: A Beginner's Guide to Adding Connections"
 
 +++
-# How to Manage Friends on Discord: A Complete Guide
+## How to Manage Friends on Discord: A Complete Guide
 
 Discord is a popular communication platform among gamers and communities. Adding friends on Discord allows you to chat, join voice channels, and play games together. In this guide, we will cover everything you need to know about managing friends on Discord, including how to send friend requests, accept friend requests, deny friend requests, remove someone as a friend, and how to block someone on Discord.
 
-## How to Send a Friend Request on Discord
+### How to Send a Friend Request on Discord
 
 1. Open the Discord app and log in to your account.
 2. Click on the "+" icon on the Discord app, and then select "Add Friend".
 3. Enter the Discord tag (username#number) of the person you want to add in the search bar.
 4. Click on the "Add Friend" button on the person's profile to send a friend request.
 
-## How to Accept a Friend Request on Discord
+### How to Accept a Friend Request on Discord
 
 1. Open the Discord app and log in to your account.
 2. Click on the "+" icon on the Discord app, and then select "Friends".
@@ -31,7 +31,7 @@ Discord is a popular communication platform among gamers and communities. Adding
 4. Click on the "Accept" button next to the friend request you want to accept.
 5. A notification will appear to confirm that the friend request has been accepted, and the person will be added to your friend list.
 
-## How to Deny a Friend Request on Discord
+### How to Deny a Friend Request on Discord
 
 1. Open the Discord app and log in to your account.
 2. Click on the "+" icon on the Discord app, and then select "Friends".
@@ -39,7 +39,7 @@ Discord is a popular communication platform among gamers and communities. Adding
 4. Click on the "Deny" button next to the friend request you want to deny.
 5.  A notification will appear to confirm that the friend request has been denied, and the person will not be added to your friend list.
 
-## How to Remove Someone as a Friend on Discord
+### How to Remove Someone as a Friend on Discord
 1. Open the Discord app and log in to your account.
 2. Click on the "+" icon on the Discord app, and then select "Friends".
 3. Find the friend you want to remove from your list.
@@ -47,7 +47,7 @@ Discord is a popular communication platform among gamers and communities. Adding
 5. Select "Remove Friend" from the options.
 6. Confirm that you want to remove the friend from your list.
 
-## How to Block Someone on Discord
+### How to Block Someone on Discord
 1. Open the Discord app and log in to your account.
 2. Right-click on the person's name or click on the three dots on the right side of their name.
 3. Select "Block" from the options.
