@@ -3,7 +3,6 @@ canonical = ""
 categories = ["How To"]
 date = 2023-01-21T18:17:13Z
 description = "Learn how to manage your friends and block people on Discord like a pro with this comprehensive guide on vaibhav.studio. Discover the easy steps for sending, accepting, denying, removing and blocking friend requests and people on Discord. Master the art of building and managing your social circle and privacy on Discord. Read now on vaibhav.studio"
-draft = true
 featured = false
 featured_image = ""
 keywords = ["manage friends on Discord", "add friends on Discord", "accept friend requests on Discord", "deny friend requests on Discord", "remove friends on Discord", "block people on Discord", "Discord friend management", "Discord connections", "Discord social circle", "Discord privacy", "Discord friends list"]
