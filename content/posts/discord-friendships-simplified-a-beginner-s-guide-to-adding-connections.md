@@ -9,7 +9,7 @@ featured_image = ""
 keywords = []
 seotitle = ""
 tags = []
-title = "\"Discord Friendships Simplified: A Beginner's Guide to Adding Connections"
+title = "Discord Friendships Simplified: A Beginner's Guide to Adding Connections"
 
 +++
 ## How to Manage Friends on Discord: A Complete Guide
