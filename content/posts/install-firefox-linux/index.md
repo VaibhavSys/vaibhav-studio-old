@@ -3,7 +3,6 @@ canonical = ""
 categories = ["How To"]
 date = 2023-01-23T15:00:55Z
 description = "Discover how to install Firefox on Ubuntu, Debian, Fedora and Arch Linux with this comprehensive, SEO-optimized guide. Easy to follow steps and commands for a seamless installation process."
-draft = true
 featured = false
 featured_image = ""
 keywords = ["Firefox", "Linux", "Ubuntu", "Debian", "Fedora", "Arch Linux", "Install Firefox", "Web browser", "Vaibhav Studio", "Web development", "Custom website", "Custom application", "Business website", "Personal website", "SEO-optimized guide", "Comprehensive guide", "Easy steps", "Command line", "Package manager", "apt", "dnf", "pacman"]
