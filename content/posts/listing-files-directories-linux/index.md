@@ -11,7 +11,7 @@ tags = ["linux"]
 title = "Understanding and Listing Files and Directories in Linux"
 
 +++
-# Master the `ls` Command: Understanding and Listing Files and Directories in Linux
+## Introduction
 
 Linux is a powerful and flexible operating system, and the `ls` command is one of its essential tools. Whether you're a seasoned Linux user or just starting out, understanding how to use the `ls` command to list files and directories is essential. In this article, we'll explore the `ls` command in detail, including its syntax, options, and practical examples.
 
@@ -56,7 +56,7 @@ This will display the names of the files and subdirectories within the current w
 
 To list the contents of a different directory, specify the directory path as a parameter when running the `ls` command:
 ```bash
-ls /path/to/directory
+$ ls /path/to/directory
 ```
 
 ### Listing the Contents of a Directory in Long Format
@@ -98,6 +98,6 @@ ls -R
 This will display the contents of the directory and all its subdirectories, allowing you to quickly see the entire contents of the directory tree.
 Conclusion
 
-The ls command is an essential tool for managing files and directories in Linux. By understanding its syntax, options, and practical examples, you can make the most of this powerful command and efficiently navigate your file system. Whether you're listing the contents of a directory, sorting files by modification time, or displaying hidden files, the ls command has you covered.
+The `ls` command is an essential tool for managing files and directories in Linux. By understanding its syntax, options, and practical examples, you can make the most of this powerful command and efficiently navigate your file system. Whether you're listing the contents of a directory, sorting files by modification time, or displaying hidden files, the ls command has you covered.
 
 For more information on the ls command and other Linux tools, visit the [Linux section of Vaibhav Studio](/tags/linux).
