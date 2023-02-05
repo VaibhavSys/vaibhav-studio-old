@@ -1,13 +1,13 @@
 +++
 canonical = ""
-categories = []
+categories = ["Guides"]
 date = 2023-02-05T07:37:31Z
 description = ""
 featured = false
 featured_image = ""
 keywords = []
 seotitle = ""
-tags = []
+tags = ["linux"]
 title = "Understanding and Listing Files and Directories in Linux"
 
 +++
