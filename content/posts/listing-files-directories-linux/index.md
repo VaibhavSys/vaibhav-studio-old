@@ -8,7 +8,7 @@ featured_image = ""
 keywords = []
 seotitle = ""
 tags = []
-title = ""
+title = "Understanding and Listing Files and Directories in Linux"
 
 +++
 # Master the `ls` Command: Understanding and Listing Files and Directories in Linux
