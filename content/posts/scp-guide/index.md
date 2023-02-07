@@ -1,13 +1,13 @@
 +++
 canonical = ""
-categories = []
+categories = ["Guide"]
 date = 2023-02-07T05:18:54Z
 description = "Learn how to transfer files securely using SCP with this comprehensive guide from Vaibhav.Studio. Discover the syntax and advanced options for transferring files and directories over an SSH connection."
 featured = false
 featured_image = ""
 keywords = []
 seotitle = ""
-tags = []
+tags = ["linux"]
 title = "Guide to SCP: Secure Copy to Transfer Files via SSH"
 
 +++
