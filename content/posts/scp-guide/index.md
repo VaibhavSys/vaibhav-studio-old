@@ -29,7 +29,7 @@ To use SCP, you need to have access to an SSH server. Most Unix-based systems (s
 
 Once you have access to an SSH server, you can use the following syntax to transfer files using SCP:
 
-```ruby
+```bash
 $ scp source_file username@destination_host:destination_folder
 ```
 
@@ -37,7 +37,7 @@ Replace `source_file` with the path and filename of the file you want to transfe
 
 For example, if you wanted to transfer the file `my_file.txt` from your local machine to a remote server with the hostname `example.com` and the username `john`, you would use the following command:
 
-```typescript
+```bash
 $ scp my_file.txt john@example.com:/home/john/
 ```
 This would transfer the file `my_file.txt` from your local machine to the `/home/john/` folder on the remote server `example.com` as the user `john`.
@@ -46,7 +46,7 @@ This would transfer the file `my_file.txt` from your local machine to the `/home
 
 To transfer files from a remote server to your local machine, you can use the following syntax:
 
-```ruby
+```bash
 $ scp username@source_host:source_file destination_folder
 ```
 
@@ -54,7 +54,7 @@ Replace `username` with your username on the source server, `source_host` with t
 
 For example, if you wanted to transfer the file `my_file.txt` from the remote server with the hostname `example.com` and the username `john` to your local machine, you would use the following command:
 
-```typescript
+```bash
 $ scp john@example.com:/home/john/my_file.txt ~/Downloads/
 ```
 
@@ -64,7 +64,7 @@ This would transfer the file `my_file.txt` from the `/home/john/` folder on the 
 
 SCP can also be used to transfer entire directories and their contents. To transfer a directory, you need to add the `-r` (recursive) option to the SCP command. The following syntax can be used to transfer a directory from a local machine to a remote server:
 
-```typescript
+```bash
 $ scp -r source_directory username@destination_host:destination_folder
 ```
 
@@ -72,7 +72,7 @@ Replace `source_directory` with the path to the directory you want to transfer, 
 
 For example, if you wanted to transfer the directory `my_folder` from your local machine to the remote server with the hostname `example.com` and the username `john`, you would use the following command:
 
-```typescript
+```bash
 $ scp -r my_folder john@example.com:/home/john/
   ```
 
@@ -80,7 +80,7 @@ This would transfer the directory `my_folder` and all its contents from your loc
 
 Similarly, to transfer a directory from a remote server to a local machine, you can use the following syntax:
 
-```typescript
+```bash
 $ scp -r username@source_host:source_directory destination_folder
 ```
 
@@ -88,7 +88,7 @@ Replace `username` with your username on the source server, `source_host` with t
 
 For example, if you wanted to transfer the directory `my_folder` from the remote server with the hostname `example.com` and the username `john` to your local machine, you would use the following command:
 
-```typescript
+```bash
 $ scp -r john@example.com:/home/john/my_folder ~/Downloads/
 ```
 
