@@ -2,7 +2,7 @@
 canonical = ""
 categories = []
 date = 2023-02-07T05:18:54Z
-description = ""
+description = "Learn how to transfer files securely using SCP with this comprehensive guide from Vaibhav.Studio. Discover the syntax and advanced options for transferring files and directories over an SSH connection."
 featured = false
 featured_image = ""
 keywords = []
@@ -103,3 +103,5 @@ By using the simple syntax outlined in this guide, you can easily transfer files
 It is important to note that SCP only transfers files over an existing SSH connection, so it is necessary to have an active SSH session established with the remote server before you can use SCP. Additionally, you will need to have the necessary permissions on the remote server to transfer files to or from that server.
 
 In summary, SCP is a versatile and powerful tool for transferring files securely between computers over an SSH connection. Whether you are a system administrator, a developer, or just someone who needs to transfer files regularly, SCP is a valuable tool to have in your arsenal.
+
+For more information on Linux tools, visit the [Linux section of Vaibhav Studio](/tags/linux).
