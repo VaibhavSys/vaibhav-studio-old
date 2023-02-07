@@ -1,18 +1,35 @@
 ---
 title: 'Vaibhav Studio: Learn, Grow, and Explore'
 date: 2022-10-31T23:25:04.000+05:30
-about: "Hi, I'm **Vaibhav Dhiman**.\n\nA software developer from India.\n\nWelcome to Vaibhav Studio."
+about: |-
+  Hi, I'm **Vaibhav Dhiman**.
+
+  A software developer from India.
+
+  Welcome to Vaibhav Studio.
 keywords:
-- Vaibhav Dhiman
+- VaibhavSys
+- truly enriching
+- understanding
+- unlock a world of knowledge
+- variety of topics
+- captivating
+- enriching experience
+- user-friendly design
+- engaging
+- thought-provoking
+- information
+- insights
+- knowledge
+- blog posts
 - Vaibhav Studio
+- Vaibhav Dhiman
 - Studio
 - Vaibhav
 - development
 - Software
 - Open-source
 - Github
-- Sys
-- Vaibhav
 - Science
 - Data
 - Learning
