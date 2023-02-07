@@ -8,6 +8,9 @@ about: |-
 
   Welcome to Vaibhav Studio.
 keywords:
+- tech guides
+- linux tutorials
+- technincal tutorials
 - VaibhavSys
 - truly enriching
 - understanding
