@@ -68,6 +68,7 @@ fields:
 pages:
 - content/posts/change-directories-linux/index.md
 - content/posts/check-directory-usage-linux/index.md
+- content/posts/creating-a-swap-file-in-linux-a-step-by-step-guide.md
 - content/posts/how-to-find-a-discord-user-id-on-mobile-and-desktop.md
 - content/posts/move-file-directories-linux/index.md
 - content/posts/new-user-linux/index.md
