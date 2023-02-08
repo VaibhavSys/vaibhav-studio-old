@@ -3,7 +3,6 @@ canonical = ""
 categories = ["Guide", "How To"]
 date = 2023-02-08T14:05:28Z
 description = ""
-draft = true
 featured = false
 featured_image = ""
 keywords = []
