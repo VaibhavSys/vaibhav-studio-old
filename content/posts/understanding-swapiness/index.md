@@ -2,11 +2,10 @@
 canonical = ""
 categories = ["Guide", "How To"]
 date = 2023-02-08T14:05:28Z
-description = ""
+description = "Learn what swappiness is in Linux and how to check and adjust its value for optimized system performance. Check out our guide on creating a swap file on vaibhav.studio."
 featured = false
 featured_image = ""
 keywords = ["swappiness", "Linux", "kernel parameter", "swap space", "physical memory", "RAM", "temporary", "persist", "reboot", "sysctl.conf", "performance", "Creating a Swap File", "vaibhav.studio"]
-
 seotitle = ""
 tags = ["linux"]
 title = "Understanding and Adjusting Swapiness in Linux: A Comprehensive Guide"
