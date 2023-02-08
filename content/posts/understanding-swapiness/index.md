@@ -13,7 +13,7 @@ title = "Understanding and Adjusting Swapiness in Linux: A Comprehensive Guide"
 +++
 ## Introduction
 
-Swappiness is a Linux kernel parameter that defines how aggressively the system uses the swap file. The higher the `swappiness` value, the more aggressive the system will be in using the swap file, and vice versa. In this article, we'll cover what `swappiness` is, how to check its current value, and how to adjust it. Also check out our article on \[creating a swap file\[(/posts/linux-create-swap/) in Linux.
+Swappiness is a Linux kernel parameter that defines how aggressively the system uses the swap file. The higher the `swappiness` value, the more aggressive the system will be in using the swap file, and vice versa. In this article, we'll cover what `swappiness` is, how to check its current value, and how to adjust it. Also check out our article on [creating a swap file](/posts/linux-create-swap/) in Linux.
 
 ## What is Swappiness?
 
@@ -53,4 +53,4 @@ Save the file and close it. The change will take effect after the next reboot.
 
 In this article, we have covered what `swappiness` is, how to check its current value, and how to adjust it. By understanding and adjusting the `swappiness` value, you can control how aggressively the system uses the swap file and optimize the performance of your system.
 
-If you haven't already, be sure to check out our article on \[creating a swap file\](/posts/linux-create-swap), which provides a step-by-step guide for creating a swap file in Linux.
+If you haven't already, be sure to check out our article on [creating a swap file](/posts/linux-create-swap), which provides a step-by-step guide for creating a swap file in Linux.
