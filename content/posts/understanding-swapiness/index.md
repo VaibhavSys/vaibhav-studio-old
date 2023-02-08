@@ -45,7 +45,9 @@ $ sudo nano /etc/sysctl.conf
 
 At the bottom of the file, add the following line:
 
+```bash
         vm.swappiness=60
+```
 
 Save the file and close it. The change will take effect after the next reboot.
 
