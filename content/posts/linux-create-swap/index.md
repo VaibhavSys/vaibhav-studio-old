@@ -3,7 +3,6 @@ canonical = ""
 categories = ["Guide", "How To"]
 date = 2023-02-08T13:43:18Z
 description = "Learn how to create a Linux swap file using either the fallocate or dd method in this comprehensive guide. Improve your system's performance with ease."
-draft = true
 featured = false
 featured_image = ""
 keywords = ["swap file", "Linux", "virtual memory", "physical memory", "fallocate", "dd", "system performance", "swappiness", "Linux guide", "vaibhav.studio", "vaibhav studio"]
