@@ -5,7 +5,8 @@ date = 2023-02-08T14:05:28Z
 description = ""
 featured = false
 featured_image = ""
-keywords = []
+keywords = ["swappiness", "Linux", "kernel parameter", "swap space", "physical memory", "RAM", "temporary", "persist", "reboot", "sysctl.conf", "performance", "Creating a Swap File", "vaibhav.studio"]
+
 seotitle = ""
 tags = ["linux"]
 title = "Understanding and Adjusting Swapiness in Linux: A Comprehensive Guide"
