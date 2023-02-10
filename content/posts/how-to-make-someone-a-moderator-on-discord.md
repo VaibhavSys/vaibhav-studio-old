@@ -3,7 +3,6 @@ canonical = ""
 categories = ["How To"]
 date = 2023-02-10T18:28:56Z
 description = "Learn how to make someone a moderator in Discord and what permissions to grant them. Ensure an efficient moderation process with these tips."
-draft = true
 featured = false
 featured_image = ""
 keywords = []
