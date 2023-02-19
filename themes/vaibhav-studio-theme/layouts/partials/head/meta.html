@@ -5,6 +5,7 @@
 {{ else if .Params.Description }}
 <meta name="description" content="{{ .Params.Description }}" />
 <meta name="og:description" content="{{ .Params.Description }}" />
+{{ else if .Title  }}
 {{ else }}
 <meta name="description" content="{{ .Summary }}" />
 <meta name="og:description" content="{{ .Summary }}" />
