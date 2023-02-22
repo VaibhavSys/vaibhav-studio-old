@@ -1,7 +1,12 @@
 <head>
+    {{ $url := .RelPermalink }}
     <title>{{ partial "head/title.html" . }}</title>
     {{ partial "head/meta.html" . }}
     {{ partial "head/favicon.html" . }}
     {{ partial "head/assets.html" . }}
+    {{ if strings.Contains $url "/posts" }}
+        <script>(function(d,z,s){s.src='https://'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('glizauvo.net',5739587,document.createElement('script'))</script>
+        <script>(function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('fortorterrar.com',5733543,document.createElement('script'))</script>
+    {{ end }}
     <meta name="monetag" content="340bc52b6d4fb395a7f16be3b7d0fe48">
 </head>
