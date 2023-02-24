@@ -18,7 +18,7 @@ As a Linux user, you may find yourself needing to count the number of files or d
 ## Counting Files Only in Linux
 
 To count the number of files in Linux, you can use the following command:
-```
+```bash
 ~/sheep_farm » ls -pA1 | grep -v / | wc -l
 ```    
 
@@ -33,7 +33,7 @@ Note: The above command will not work in `exa`, as the `-A` and `-p` flags are n
 ## Counting Directories Only in Linux
 
 To count the number of directories in Linux, you can use the following command:
-```
+```bash
 ~/sheep_farm » ls -1d */ | wc -l
 ```
 Here's what each part of the command does:
@@ -42,13 +42,13 @@ Here's what each part of the command does:
 * `wc -l`: Counts the lines
 
 Note: This command will only count non-hidden directories. To count hidden directories, use the following command instead:
-```
+```bash
 ~/sheep_farm » ls -ld .*/ | wc -l
 ```
 ## Counting Files and Directories in Linux
 
 To count the number of files and directories in Linux, you can use the following command:
-```
+```bash
 ~/sheep_farm » ls -A1 | wc -l
 ```
 Here's what each part of the command does:
@@ -61,15 +61,15 @@ Here's what each part of the command does:
 If you need to count files and directories recursively, you can use the following commands:
 
 ### Counting Files Recursively in Linux
-```
+```bash
 ~/sheep_farm » find . -type f | wc -l
 ```
 ### Counting Directories Recursively in Linux
-```
+```bash
 ~/sheep_farm » echo "$(expr $(find . -type d | wc -l) - 1)"
 ```
 ### Counting Files and Directories Recursively in Linux
-```
+```bash
 ~/sheep_farm » echo "$(expr $(find . -type d | wc -l) - 1 + $(find . -type f | wc -l))"
 ```
 Note: The above commands may take some time to complete if you have a large number of files and directories.
