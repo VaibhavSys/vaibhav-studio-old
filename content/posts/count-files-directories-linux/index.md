@@ -2,59 +2,78 @@
 canonical = ""
 categories = ["How To"]
 date = 2022-12-06T12:18:26Z
-description = "We can count the number of files or directories in linux with the help of utilities like ls, find and wc."
+description = "Learn how to count files and directories in Linux using utilities like ls, find, and wc. Increase your productivity with these simple commands. Master Linux file management today!"
 featured = false
 featured_image = ""
 keywords = ["count the number of files in linux", "count the number of directories in linux", "count the number of files and directories in linux", "count the number of files or directories in linux", "number of files or directories in linux", "count files in linux", "count directories in linux"]
 seotitle = ""
 tags = ["linux"]
-title = "Count the number of files and directories in Linux"
+title = "How to Count Files and Directories in Linux: A Comprehensive Guide"
 
 +++
-# How to count the number of files or directories in Linux
+## Introduction
 
-We can count the number of files or directories in linux with the help of utilities like ls, find and wc.
+As a Linux user, you may find yourself needing to count the number of files or directories in a given location. Luckily, there are several utilities available that can help you accomplish this task quickly and easily. In this guide, we will cover various methods for counting files and directories in Linux using utilities like ls, find, and wc.
 
-## Count Files ONLY
+## Counting Files Only in Linux
 
-`~/sheep_farm » ls -pA1 | grep -v / | wc -l`
+To count the number of files in Linux, you can use the following command:
+```
+~/sheep_farm » ls -pA1 | grep -v / | wc -l
+```    
 
-Explanation:
+Here's what each part of the command does:
 
-* `ls -p1`: Tells `ls` to add a `/` infront of directories. The `-1` tells `ls` to only show one file per line.
-* `grep -v /`: Tells grep to filter out all enteries with a `/` in them
-* `wc -l`: Tells `wc` to count the lines
+* `ls -p1`: Adds a `/` in front of directories. The `-1` option tells `ls` to show only one file per line.
+* `grep -v /`: Filters out all entries with a `/` in them
+* `wc -l`: Counts the lines
 
-Note: This flag does not exist in `exa`, users of it will have to use standard ls, if you have aliased `ls` to `exa` then you can execute the ls binary from `/usr/bin/ls.`
+Note: The above command will not work in `exa`, as the `-A` and `-p` flags are not available. In such a case, you can use standard `ls` or execute the `ls` binary from `/usr/bin/ls` if you have `ls` aliased to `exa`.
 
-The `-A` flag is not available in exa, you will need to use standard ls for that.
+## Counting Directories Only in Linux
 
-Like: `~/sheep_farm » /usr/bin/ls -p | grep -v /`
+To count the number of directories in Linux, you can use the following command:
+```
+~/sheep_farm » ls -1d */ | wc -l
+```
+Here's what each part of the command does:
 
-## Count Directories ONLY
+* `ls -1d */`: Lists all directories in the current directory, showing only one directory per line
+* `wc -l`: Counts the lines
 
-`~/sheep_farm » ls -1d */ | wc -l`
+Note: This command will only count non-hidden directories. To count hidden directories, use the following command instead:
+```
+~/sheep_farm » ls -ld .*/ | wc -l
+```
+## Counting Files and Directories in Linux
 
-Explanation: Tells `ls` to only list one file per line and to only list directories not their contents of all directories in the current directory.
+To count the number of files and directories in Linux, you can use the following command:
+```
+~/sheep_farm » ls -A1 | wc -l
+```
+Here's what each part of the command does:
 
-Note: This will only count non-hidden directories, to count hidden directories use: `~/sheep_farm » ls -ld .*/ | wc -l`
+* `ls -A1`: Shows almost all files (excluding `.` and `..`) and displays one file per line
+* `wc -l`: Counts the lines
 
-Quick little bash one liner to list the directories in the current directory hidden and non hidden excluding `.` and `..: $ echo "$(expr $(ls -1d .*/ | wc -l) + $(ls -1d */ | wc -l) - 2)"`
+## Counting Files and Directories Recursively in Linux
 
-## Count Files AND Directories
+If you need to count files and directories recursively, you can use the following commands:
 
-`~/sheep_farm » ls -A1 | wc -l`
+### Counting Files Recursively in Linux
+```
+~/sheep_farm » find . -type f | wc -l
+```
+### Counting Directories Recursively in Linux
+```
+~/sheep_farm » echo "$(expr $(find . -type d | wc -l) - 1)"
+```
+### Counting Files and Directories Recursively in Linux
+```
+~/sheep_farm » echo "$(expr $(find . -type d | wc -l) - 1 + $(find . -type f | wc -l))"
+```
+Note: The above commands may take some time to complete if you have a large number of files and directories.
 
-Explanation: Tells `ls` to show one file per line and show almost all files (excluding `.` and `..`) and to count the lines.
+## Conclusion
 
-## Count Files Recursively
-
-`~/sheep_farm » find . -type f | wc -l`
-
-## Count Directories Recursively
-
-`~/sheep_farm » echo "$(expr $(find . -type d | wc -l) - 1)"`
-
-## Count Files and Directories Recursively
-
-`~/sheep_farm » echo "$(expr $(find . -type d | wc -l) - 1 + $(find . -type f | wc -l))"`
+Counting files and directories in Linux can be achieved using a variety of methods, each with its own strengths and limitations. Whether you prefer to use `ls`, `find`, or a combination of both, you now have the knowledge to count files and directories like a pro.
